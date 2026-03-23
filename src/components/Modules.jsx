@@ -52,10 +52,10 @@ const Modules = () => {
   ];
 
   return (
-    <section id="MODULES" className="py-20 bg-white">
+    <section id="MODULES" className="py-5 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <Typography variant="caption" className="text-blue-600 font-semibold uppercase tracking-wider mb-2">
             Platform Modules
           </Typography>
@@ -68,7 +68,7 @@ const Modules = () => {
         </div>
 
         {/* Modules Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {modules.map((module, index) => {
             const Icon = module.icon;
             return (
