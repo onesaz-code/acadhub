@@ -3,7 +3,7 @@ import { Typography } from '@onesaz/ui';
 
 const AppDownload = () => {
   return (
-    <div className="relative py-16 px-4 md:px-8 bg-gradient-to-br from-gray-50 to-blue-50 overflow-hidden">
+    <div className="relative md:px-8 bg-gradient-to-br from-gray-50 to-blue-50 overflow-hidden">
       <div className="max-w-5xl mx-auto text-center">
         {/* Header */}
         <div className="mb-8">
