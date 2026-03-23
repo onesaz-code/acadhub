@@ -59,13 +59,20 @@ const Hero = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-blue-700 to-cyan-600 py-16 md:py-24 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-purple-950 via-purple-800 to-purple-700 py-10 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
             backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
             backgroundSize: '40px 40px'
           }}></div>
+        </div>
+        <div className="flex items-center justify-center -mt-5">
+         <img
+            src="https://onesaz-assets.s3.ap-south-1.amazonaws.com/assets/onesquare.png"
+            alt="Logo"
+            style={{ width: "100px", height: "100px" }}
+          />
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
