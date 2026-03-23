@@ -22,7 +22,7 @@ const LetsTalk = () => {
   };
 
   return (
-    <div>
+    <div className="m-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-12">
